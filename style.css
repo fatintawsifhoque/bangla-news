@@ -1,0 +1,108 @@
+@font-face {
+  font-family: fatin;
+  src: url(/font/LiAlinurNakkhatraUnicode.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: fatin;
+  box-sizing: border-box;
+}
+.logo {
+  height: 90px;
+  overflow: hidden;
+  background-color: #bb1919;
+}
+
+.logo img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  border-color: transparent;
+  background-color: black;
+}
+
+nav {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  padding-left: 3.57rem;
+}
+
+ul {
+  display: flex;
+  gap: 1.3rem;
+  font-size: 1.4rem;
+  list-style-type: none;
+  font-weight: 300;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  color: grey;
+}
+
+.container {
+  display: flex;
+  margin: 3.57rem 0 0 3.57rem;
+  width: 90%;
+
+}
+
+
+.left-side{
+    width: 100%;
+    overflow: hidden;
+}
+.left-side img{
+    width: 100%;
+  object-fit: cover;
+}
+
+.right-side{
+    display: flex;
+    gap: 10px;
+    padding-left: 9px;
+    flex-wrap: wrap;
+    
+}
+.f-part, .s-part{
+    width: 40%;
+    overflow: hidden;
+    /* height: 135px; */
+}
+.f-part img{
+    width: 100%;
+  object-fit: cover;
+}
+.s-part img{
+    
+    width: 100%;
+  object-fit: cover;
+}
+
+.news{
+  display: flex;
+  margin: 3.57rem 0 0 3.57rem;
+  width: 90%;
+  gap: .5rem;
+}
+.card{
+  width: 16rem;
+}
+
+.li{
+  margin: 7px 0;
+  height: 1px;
+  width: 100%;
+  border-color: transparent;
+  background-color: rgb(189, 188, 188);
+}
